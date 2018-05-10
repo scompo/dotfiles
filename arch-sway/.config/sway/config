@@ -17,6 +17,8 @@ set $right l
 set $term urxvt
 # Your preferred application launcher
 set $menu dmenu_run
+# Browser
+set $browser qutebrowser
 
 ### Output configuration
 #
@@ -49,6 +51,9 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
     # start a terminal
     bindsym $mod+Return exec $term
+
+    # open the browser
+    bindsym $mod+i exec $browser
 
     # kill focused window
     bindsym $mod+Shift+q kill
