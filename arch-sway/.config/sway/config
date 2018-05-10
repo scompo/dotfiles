@@ -18,7 +18,7 @@ set $term urxvt
 # Your preferred application launcher
 set $menu dmenu_run
 # Browser
-set $browser qutebrowser
+set $browser firefox
 
 ### Output configuration
 #
